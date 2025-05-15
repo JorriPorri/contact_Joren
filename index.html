@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Contact Info</title>
+</head>
+<body>
+  <h1>Contact Me</h1>
+  <p>Email: <span id="email"></span></p>
+  <p>Phone: <span id="phone"></span></p>
+
+  <script>
+    const email = ['you', 'domain.com'].join('@');
+    const phone = '+32' + ' 123 45 67 89';
+    document.getElementById('email').textContent = email;
+    document.getElementById('phone').textContent = phone;
+  </script>
+</body>
+</html>
